@@ -8,6 +8,8 @@ public class Calculadora {
 
     public double resultado;
 
+//sinais estavam trocados,sinais corrigido
+
     public void somar(double a, double b) {
         this.resultado = a + b;
     }
