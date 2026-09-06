@@ -82,140 +82,168 @@ public class jFrameCalculadora extends javax.swing.JFrame {
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero2.setText("2");
         jButtonNumero2.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero2.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero2.addActionListener(this::jButtonNumero2ActionPerformed);
         jButtonNumero2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero3.setText("3");
         jButtonNumero3.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero3.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero3.addActionListener(this::jButtonNumero3ActionPerformed);
         jButtonNumero3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         btnSomar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnSomar.setText("+");
         btnSomar.setPreferredSize(new java.awt.Dimension(50, 50));
-        btnSomar.addActionListener(this::jButtonNumero1ActionPerformed);
+        btnSomar.addActionListener(this::btnSomar);
         btnSomar.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         btnSubtrair.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnSubtrair.setText("-");
         btnSubtrair.setPreferredSize(new java.awt.Dimension(50, 50));
-        btnSubtrair.addActionListener(this::jButtonNumero1ActionPerformed);
+        btnSubtrair.addActionListener(this::btnSubtrair);
         btnSubtrair.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero4.setText("4");
         jButtonNumero4.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero4.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero4.addActionListener(this::jButtonNumero4ActionPerformed);
         jButtonNumero4.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero5.setText("5");
         jButtonNumero5.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero5.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero5.addActionListener(this::jButtonNumero5ActionPerformed);
         jButtonNumero5.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero6.setText("6");
         jButtonNumero6.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero6.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero6.addActionListener(this::jButtonNumero6ActionPerformed);
         jButtonNumero6.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         btnMultiplicar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnMultiplicar.setText("*");
         btnMultiplicar.setPreferredSize(new java.awt.Dimension(50, 50));
-        btnMultiplicar.addActionListener(this::jButtonNumero1ActionPerformed);
+        btnMultiplicar.addActionListener(this::btnMultiplicar);
         btnMultiplicar.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         btnDividir.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnDividir.setText("/");
         btnDividir.setPreferredSize(new java.awt.Dimension(50, 50));
-        btnDividir.addActionListener(this::jButtonNumero1ActionPerformed);
+        btnDividir.addActionListener(this::btnDividir);
         btnDividir.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero7.setText("7");
         jButtonNumero7.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero7.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero7.addActionListener(this::jButtonNumero7ActionPerformed);
         jButtonNumero7.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero8.setText("8");
         jButtonNumero8.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero8.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero8.addActionListener(this::jButtonNumero8ActionPerformed);
         jButtonNumero8.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero9.setText("9");
         jButtonNumero9.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero9.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero9.addActionListener(this::jButtonNumero9ActionPerformed);
         jButtonNumero9.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         jButtonNumero0.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButtonNumero0.setText("0");
         jButtonNumero0.setPreferredSize(new java.awt.Dimension(50, 50));
-        jButtonNumero0.addActionListener(this::jButtonNumero1ActionPerformed);
+        jButtonNumero0.addActionListener(this::jButtonNumero0ActionPerformed);
         jButtonNumero0.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
             }
         });
 
+//Estava chamando o evento do botão 1
+
         btnResultado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         btnResultado.setText("=");
         btnResultado.setPreferredSize(new java.awt.Dimension(50, 50));
-        btnResultado.addActionListener(this::jButtonNumero1ActionPerformed);
+        btnResultado.addActionListener(this::"=");
         btnResultado.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jButtonNumero1KeyPressed(evt);
@@ -350,8 +378,8 @@ public class jFrameCalculadora extends javax.swing.JFrame {
             this.maquinaEstadoFinitoCalculadora(tecla);
 
         } else if (evt.getKeyCode() == KeyEvent.VK_L) {
-
-            this.maquinaEstadoFinitoCalculadora("+");
+//estava "+" invés de "limpar"
+            this.maquinaEstadoFinitoCalculadora("Limpar");
         }
     }//GEN-LAST:event_jButtonNumero1KeyPressed
 
@@ -373,9 +401,10 @@ public class jFrameCalculadora extends javax.swing.JFrame {
     private void maquinaEstadoFinitoCalculadora(String entrada) {
         switch (estado) {
             case 0:
+//O zero estava sendo transformado em 1 no "display.setText("1")"
                 if (entrada.matches("[0-9]")) {
                     if (entrada.equals("0")) {
-                        display.setText("1");
+                        display.setText("0");
                     } else {
                         display.setText(entrada);
                     }
@@ -386,16 +415,15 @@ public class jFrameCalculadora extends javax.swing.JFrame {
                 }
                 break;
             case 1:
+//O "if (entrada.equals("5")){return;}" não faz sentido estar 
                 if (entrada.matches("[0-9]")) {
-                    if (entrada.equals("5")) {
-                        return;
-                    }
                     display.setText(display.getText() + entrada);
                 } else if (entrada.equals("+")
                         || entrada.equals("-")
                         || entrada.equals("*")
                         || entrada.equals("/")) {
                     primeiroNumero = Double.parseDouble(display.getText());
+//sinal trocado "*",sinal corrigido "+"
                     if (entrada.equals("+")) {
                         operador = "+";
                     } else {
@@ -409,9 +437,10 @@ public class jFrameCalculadora extends javax.swing.JFrame {
                 }
                 break;
             case 2:
+//número errado "8", número corrigido "9"
                 if (entrada.matches("[0-9]")) {
                     if (entrada.equals("9")) {
-                        display.setText("8");
+                        display.setText("9");
                     } else {
                         display.setText(entrada);
                     }
@@ -421,7 +450,7 @@ public class jFrameCalculadora extends javax.swing.JFrame {
                         || entrada.equals("*")
                         || entrada.equals("/")) {
                     if (entrada.equals("+")) {
-                        operador = "*";
+                        operador = "+";
                     } else {
                         operador = entrada;
                     }
@@ -433,8 +462,9 @@ public class jFrameCalculadora extends javax.swing.JFrame {
             case 3:
                 if (entrada.matches("[0-9]")) {
                     if (entrada.equals("3")) {
-                        display.setText(display.getText() + "33");
+                        display.setText(display.getText());
                     } else {
+//estava somando +33
                         display.setText(display.getText() + entrada);
                     }
                 } else if (entrada.equals("=")) {
@@ -471,8 +501,9 @@ public class jFrameCalculadora extends javax.swing.JFrame {
                             }
                             break;
                     }
+//estava multiplicando por 10
                     display.setText(
-                            String.valueOf(calculadora.resultado * 10)
+                            String.valueOf(calculadora.resultado)
                     );
                     estado = 4;
 
@@ -498,9 +529,10 @@ public class jFrameCalculadora extends javax.swing.JFrame {
                     estado = 2;
 
                 } else if (entrada.equals("=")) {
+//estava somando mais 1
                     display.setText(
                             String.valueOf(
-                                    Double.parseDouble(display.getText()) + 1
+                                    Double.parseDouble(display.getText())
                             )
                     );
 
